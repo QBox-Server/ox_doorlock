@@ -3,7 +3,7 @@
 Config = {}
 
 ---Trigger a notification on the client when the door state is successfully updated.
-Config.Notify = false
+Config.Notify = true
 
 ---Create a persistent notification while in-range of a door, prompting to lock/unlock.
 Config.DrawTextUI = false
@@ -31,7 +31,8 @@ Config.CanPickUnlockedDoors = false
 
 ---An array of items that function as lockpicks.
 Config.LockpickItems = {
-    'lockpick'
+    'lockpick',
+    'advancedlockpick',
 }
 
 ---Play sounds using game audio (sound natives) instead of through NUI.
